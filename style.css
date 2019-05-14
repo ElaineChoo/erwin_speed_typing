@@ -1,0 +1,83 @@
+body {
+	text-align: center;
+}
+
+.statsText {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	display: inline-block;
+
+}
+
+#text-box {
+	margin: 20px 0;
+	/*border: 3px solid black;*/
+
+}
+
+#show-texts {
+	height: 45vh;
+	width: 45vw;
+	overflow-y: scroll;
+	font-family: 'Inconsolata', monospace;
+	font-size: 1.7rem;
+	text-align: left;
+	background-color: #F5F5F5;
+	border: 5px solid #ff8000;
+	white-space: pre-wrap;
+	color: #808080;
+	margin: 0 auto;
+	border-style: groove;
+	border-radius: 4px;
+}
+
+#start {
+	margin-right: 20px;
+	background-color: #4CAF50;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	border-radius: 8px;
+	width: 77px;
+	height: 44px;
+}
+
+#reset {
+	margin-left: 20px;
+	background-color:#f44336;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	border-radius: 8px;
+	width: 77px;
+	height: 44px;
+}
+
+#start:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#reset:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.current-letter {
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+.correct-letter {
+	color: blue;
+}
+
+.wrong-letter {
+	color: red;
+}
+
+.wrong-space {
+	background-color: red;
+}
+
+.correct-space {
+	
+}
